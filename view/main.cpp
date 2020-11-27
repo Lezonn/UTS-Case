@@ -1,4 +1,4 @@
-#include "../controllers/controller.h"
+#include "../controller/controller.h"
 
 void input(int n) {
     while(n--) {
