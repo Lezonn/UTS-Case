@@ -34,6 +34,9 @@ int main() {
     scanf("%d %d", &patients, &cure);
     input(patients);
     if(cure - patients >= 0) {
+        while(head) {
+            removePQ();
+        }
         printf("All patients get the cure, %d cure left\n", cure - patients);
     } else {
         cureAll(cure);
