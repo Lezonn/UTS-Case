@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../model/model.h"
+#include "../model/models.h"
 
 int monthToDay(char *str, int year) {
     if(strcmp(str, "january")==0) return 31;
